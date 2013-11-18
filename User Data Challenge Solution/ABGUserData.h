@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ABGUserData : NSObject
-
 #define USER_NAME @"username";
 #define USER_EMAIL @"email";
 #define USER_PASSWORD @"password";
 #define USER_AGE @"age";
-#define USER_PROFILE_PICTURE @"profile picture";
+#define USER_PROFILE_PICTURE @"profilePicture";
+
+@interface ABGUserData : NSObject
 
 + (NSArray *)users;
 //Returns array of NSDictionary of Users
